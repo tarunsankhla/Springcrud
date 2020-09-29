@@ -1,3 +1,4 @@
 # Springcrud
 
-Spring boot based crud operation
+Spring boot with mysql
+
