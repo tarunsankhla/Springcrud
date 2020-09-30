@@ -12,7 +12,7 @@
 
 <body>
     <div class="container my-5">
-        <h3> Update User</h3>
+        <h3> Update Goals</h3>
         <div class="card">
             <div class="card-body">
                 <div class="col-md-8">
@@ -27,9 +27,16 @@
                             <div class="form-group col-md-8">
                                 <label for="phoneNo" class="col-form-label">Phone No</label> <input type="text" th:field="*{phoneNo}" class="form-control" id="phoneNo" placeholder="phoneNo"> <span th:if="${#fields.hasErrors('phoneNo')}" th:errors="phoneNo" class="text-danger"></span>
                             </div>
+                             <div class="form-group col-md-8">
+                                <label for="microsaving" class="col-form-label">Micro Saving</label> <input type="text" th:field="*{microsaving}" class="form-control" id="microsaving" placeholder="Micro Saving"> <span th:if="${#fields.hasErrors('microsaving')}" th:errors="*{microsaving}" class="text-danger"></span>
+                            </div>
 
                             <div class="form-group col-md-8">
-                                <input type="submit" class="btn btn-primary" value="Update Student">
+                                <label for="targetamount" class="col-form-label">Target Amount</label> <input type="text" th:field="*{targetamount}" class="form-control" id="targetamount" placeholder="Target Amount"> <span th:if="${#fields.hasErrors('targetamount')}" th:errors="*{targetamount}" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group col-md-8">
+                                <input type="submit" class="btn btn-primary" value="Update Goals"> 
                             </div>
                         </div>
                     </form>
