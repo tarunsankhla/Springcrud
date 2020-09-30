@@ -70,78 +70,20 @@ public class User {
     	
         this.phoneNo = phoneNo;
     }
-    
-    
-    
-	public int getTargetAmount() {
-		return targetamount;
+	
+    public int getTargetAmount() {
+	return targetamount;
+	}	
+
+    public void setTargetAmount(int targetAmount) {
+	this.targetamount = targetAmount;
 	}
 
-	public void setTargetAmount(int targetAmount) {
-		this.targetamount = targetAmount;
+     public int getMicroSaving() {
+	return microsaving;
 	}
 
-	public int getMicroSaving() {
-		return microsaving;
-	}
-
-	public void setMicroSaving(int microSaving) {
-		this.microsaving = microSaving;
+     public void setMicroSaving(int microSaving) {
+	this.microsaving = microSaving;
 	}
 }
-//public class User {
-//
-//	@Id
-//	@Column(name = "id")
-//	@GeneratedValue(strategy = GenerationType.IDENTITY)
-//	private int id;
-//	@Column(name = "name")
-//	private String name;
-//	@Column(name = "goal")
-//	private String Goal;
-//	@Column(name = "target_amount")
-//	private int TargetAmount;
-//	@Column(name = "micro_saving")
-//	private int MicroSaving;
-//
-//	public int getId() {
-//		return id;
-//	}
-//
-//	public void setId(int id) {
-//		this.id = id;
-//	}
-//
-//	public String getName() {
-//		return name;
-//	}
-//
-//	public void setName(String name) {
-//		this.name = name;
-//	}
-//
-//	public String getGoal() {
-//		return Goal;
-//	}
-//
-//	public void setGoal(String goal) {
-//		Goal = goal;
-//	}
-//
-//	public int getTargetAmount() {
-//		return TargetAmount;
-//	}
-//
-//	public void setTargetAmount(int targetAmount) {
-//		TargetAmount = targetAmount;
-//	}
-//
-//	public int getMicroSaving() {
-//		return MicroSaving;
-//	}
-//
-//	public void setMicroSaving(int microSaving) {
-//		MicroSaving = microSaving;
-//	}
-//
-//}
