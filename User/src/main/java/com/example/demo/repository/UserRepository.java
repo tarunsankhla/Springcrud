@@ -12,9 +12,4 @@ public interface UserRepository extends CrudRepository <User, Long> {
     List<User> findByName(String name); 
 }
 
-//@Repository
-//public interface UserRepository extends JpaRepository<User, Integer> {
-//
-//	
-//
-//}
+
