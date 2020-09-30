@@ -33,7 +33,7 @@
                                         <th>Name</th>
                                         <th>Email</th>
                                         <th>Phone No</th>
-										<th>MicoSaving</th>
+					<th>MicoSaving</th>
                                         <th>Target Amount</th>
                                         <th>Edit</th>
                                         <th>Delete</th>
@@ -44,8 +44,8 @@
                                         <td th:text="${user.name}"></td>
                                         <td th:text="${user.email}"></td>
                                         <td th:text="${user.phoneNo}"></td>
-										<td th:text="${user.microsaving}"></td>
-										<td th:text="${user.targetamount}"></td>
+					<td th:text="${user.microsaving}"></td>
+					<td th:text="${user.targetamount}"></td>
                                         <td><a th:href="@{/users/edit/{id}(id=${user.id})}" class="btn btn-primary"><i class="fas fa-user-edit ml-2"></i></a></td>
                                         <td><a th:href="@{/users/delete/{id}(id=${user.id})}" class="btn btn-primary"><i class="fas fa-user-times ml-2"></i></a></td>
                                     </tr>
